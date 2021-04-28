@@ -1,5 +1,5 @@
 FROM node:12.18.1-buster
-ADD ./src /app
+ADD / /app
 WORKDIR /app
 ENV DEBCONF_NOWARNINGS yes
 RUN apt-get update -y && \
